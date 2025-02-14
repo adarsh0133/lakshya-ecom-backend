@@ -10,7 +10,6 @@ const connectDB = async () => {
     useUnifiedTopology: true,
     serverSelectionTimeoutMS: 5000, // Set a timeout (5 sec)
     socketTimeoutMS: 45000, // Prevents function shutdown due to inactivity
-    keepAlive: true,
   });
 };
 
